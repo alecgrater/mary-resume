@@ -1,7 +1,7 @@
 const resumeData = {
   name: "Mary Correia",
   email: "correia.mary6@gmail.com",
-  phone: "(401)480-2335",
+  phone: "(401) 480-2335",
   education: {
     university: "University of Massachusetts Amherst - College of Humanities and Fine Arts",
     degree: "Bachelor of Arts in English",
