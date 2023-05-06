@@ -1,6 +1,6 @@
 # Professional Resume Website
 
-A professional resume website built for a friend.
+A professional resume website built for a friend. Preview Here: [https://alecgrater.github.io/mary-resume/](https://alecgrater.github.io/mary-resume/)
 
 ## Features
 
