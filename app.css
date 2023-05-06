@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .section {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .section:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .section h2 {
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  
+  .section p {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  
+  .section ul {
+    margin-top: 0;
+    margin-bottom: 10px;
+    padding-left: 20px;
+  }
+  
+  .section ul li {
+    margin-bottom: 5px;
+  }
+  
+  .section ul li:before {
+    content: "•";
+    color: #666;
+    font-size: 12px;
+    margin-right: 5px;
+  }
+  
+  .section .highlight {
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .section .date {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .section .responsibilities {
+    margin-top: 10px;
+  }
+  
+  .section .responsibilities li {
+    margin-bottom: 5px;
+  }
+  
+  .section .responsibilities li:before {
+    content: "▸";
+    color: #666;
+    margin-right: 5px;
+  }
+  
+  /* Colors */
+  .section:nth-child(odd) {
+    background-color: #f7f7f7;
+  }
+  
+  .section:nth-child(even) {
+    background-color: #e7e7e7;
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .header h1 {
+    font-size: 32px;
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  
+  .header p {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  
+  .skills {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .skills li {
+    background-color: #f2f2f2;
+    color: #333;
+    border-radius: 16px;
+    padding: 8px 16px;
+    margin: 5px;
+    font-size: 14px;
+  }
+  
+  .section ul li:before {
+    content: none;
+    color: inherit;
+    font-size: inherit;
+    margin-right: inherit;
+  }
+  
+  
